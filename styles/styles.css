@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+}
+
+
+nav {
+    background: black;
+    color: white;
+}
+
+main {
+    margin: 90px 25px 0px 25px;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigFlex {
+    display: grid;
+    margin: 0 auto;
+    min-height: 100dvh;
+    grid-template-columns: 285px 1fr;
+}
+
+.navBox {
+    background: white;
+    height: 145px;
+    margin: 22px;
+    min-width: 170px;
+}
+
+.navLine {
+    background-color: white;
+    height: 15px;
+    margin: 22px;
+}
+.line1 {
+    width: 210px;
+}
+.line2 {
+    width: 242px;
+}
+.line3 {
+    width: 220px;
+}
+.line4 {
+    width: 210px;
+}
+
+.mainTitle {
+    background: black;
+    width: 275px;
+    height: 45px;
+}
+
+article {
+    background: black;
+    height: 609px;
+}
+
+.boxContainer {
+    display: flex;
+    grid-gap: 45px;
+    justify-content: space-between;
+}
+
+.mainItems {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+}
+
+.mainBox {
+    background: black;
+    width: 490px;
+    height: 115px;
+}
+
